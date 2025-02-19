@@ -1,4 +1,4 @@
-import express from express
+import express from 'express'
 import { addFood } from "../controllers/foodcontroller.js"
 import multer from 'multer'
 
