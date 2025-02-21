@@ -14,7 +14,7 @@ const addFood = async (req,res) => {
         category:req.body.category,
         image:image_filename
     })
-    try{
+    try{ 
         await food.save();
         res.json({success:true,message:"Food Added"})
     }catch(error){
